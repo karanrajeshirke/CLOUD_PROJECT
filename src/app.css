@@ -1,0 +1,56 @@
+/* App.css */
+
+/* Sticky Footer Fix */
+html, body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #root {
+    flex-grow: 1;
+  }
+  
+  footer {
+    flex-shrink: 0;
+  }
+  
+  /* Gen Z Styling: Neon and Vibrant Colors */
+  .neon-text {
+    color: #00ff9d; /* Neon green */
+    text-shadow: 0 0 5px #00ff9d, 0 0 10px #00ff9d, 0 0 20px #00ff9d;
+  }
+  
+  .neon-section {
+    background-color: #222;
+    color: white;
+  }
+  
+  .custom-card {
+    background-color: #282c34; /* Dark background for contrast */
+    border-radius: 15px; /* Rounded corners */
+  }
+  
+  blockquote {
+    font-size: 1.2rem;
+  }
+  
+  button {
+    background-color: #ff00ff; /* Neon pink button */
+    border: none;
+    color: white;
+  }
+  
+  button:hover {
+    background-color: #ff007f; /* Darker pink on hover */
+  }
+  
+  footer p {
+    font-size: 1rem;
+    color: #ff00ff;
+  }
+  
+  
